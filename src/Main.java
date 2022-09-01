@@ -61,5 +61,48 @@ public class Main {
 
         int daysAverange = (numberDays + numberDaySecondOption) / 2;
         System.out.println("в среднем потребуется " + daysAverange + " дней");
+
+        int masha = 67760;
+        int denis = 83690;
+        int kristina = 76230;
+        byte month = 12;
+        byte raising = 10;
+
+        int increaseMasha = masha / raising;
+        System.out.println("зарплата Маши увеличится на " + increaseMasha + " рублей");
+
+        int salaryMasha = masha + increaseMasha;
+        System.out.println("зарплата Маши теперь " + salaryMasha + " рублей в месяц");
+
+        int annualSalaryMasha = salaryMasha * month;
+        System.out.println("Маша теперь получает " + annualSalaryMasha + " рублей в год");
+
+        int yearMasha = annualSalaryMasha - masha * month;
+        System.out.println("Доход маши вырос на " + yearMasha + " рублей в год");
+
+        int increaseDenis = denis / raising;
+        System.out.println("зарплата Дениса увеличится на " + increaseDenis + " рублей");
+
+        int salaryDenis = denis + increaseDenis;
+        System.out.println("зарплата Дениса теперь " + salaryDenis + " рублей в месяц");
+
+        int annualSalaryDenis = salaryDenis * month;
+        System.out.println("Денис теперь получает " + annualSalaryDenis + " рублей в год");
+
+        int yearDenis = annualSalaryDenis - denis * month;
+        System.out.println("Доход Дениса вырос на " + yearDenis + " рублей");
+
+        int increaseKristina = kristina / raising;
+        System.out.println("зарплата Кристины увеличится на " + increaseKristina + " рублей");
+
+        int salaryKristina = kristina + increaseKristina;
+        System.out.println("зарплата кристины теперь " + salaryKristina + " рублей в месяц");
+
+        int annualSalaryKristina = salaryKristina * month;
+        System.out.println("Кристина теперь получает " + annualSalaryKristina + " рублей в год");
+
+        int yearKristina = annualSalaryKristina - kristina * month;
+        System.out.println("Доход Кристины вырос на " + yearKristina + " рублей");
+
     }
 }
